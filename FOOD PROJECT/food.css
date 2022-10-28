@@ -1,0 +1,106 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*utility classes*/
+.img-respnsive{
+    max-width: 100%;
+
+}
+
+.hero_image {
+    background: url(https://images.all-free-download.com/images/graphicwebp/panipuri_gupchup_indian_food_222006.webp) no-repeat;
+   /*background: url("https://cdn.dribbble.com/users/1520198/screenshots/4728543/delivery_boy_animation.gif") no-repeat;*/
+  -webkit-background-size:cover;
+  background-size:cover;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.hero_wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% ,-50%);
+
+}
+
+.hero_wrapper{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* .hero_wrapper span{
+
+margin-left: 5rem;
+display: block;
+margin-bottom: .5rem;
+
+
+} */
+/* .form_code{
+    text-align: center;
+} */
+
+
+
+.form_code .post_code{
+
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+     border-radius: 2rem;
+     padding: .6rem;
+     border: none;
+     outline: none;
+    
+    }
+.form_code button{
+
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    padding: .6rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .6rem;
+}
+
+/*product_section*/
+
+
+.product{
+    width: 80%;
+    margin-top: .2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_list_item{
+    float: left;
+    width: 32%;
+    margin: 0.2rem;
+}
+
+.product_list_item:first-of-type{
+
+    margin-left: 0%;
+}
+
+
+@media screen and (max-width:700px) {
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
+    
+}
+
